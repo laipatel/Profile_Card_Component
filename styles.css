@@ -354,7 +354,9 @@ template {
 
 body {
 	background-color: hsl(185, 75%, 39%);
+	/*
 	background-image: url("./images/bg-pattern-top.svg"), url("./images/bg-pattern-bottom.svg");
-	background-position: 0% 50%, 60% 60%;
+	background-position:  top 0px left 0px, bottom -50px right -50px;
 	background-repeat: no-repeat;
+	*/
 }
