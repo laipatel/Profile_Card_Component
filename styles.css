@@ -352,13 +352,13 @@ template {
 
 /* }}} */
 
+/* My Code */
+
 body {
 	background-color: hsl(185, 75%, 39%);
-	/*
 	background-image: url("./images/bg-pattern-top.svg"), url("./images/bg-pattern-bottom.svg");
 	background-position:  top 0px left 0px, bottom -50px right -50px;
 	background-repeat: no-repeat;
-	*/
 }
 
 html, body {
@@ -377,12 +377,17 @@ html, body {
 	 width: 98%;
 	 justify-content: center;
 	 align-items: center;
+
+	font-family: Kumbh Sans, Helvetica, Arial, sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	color: hsl(227, 10%, 46%);
  }
 
  .card {
 	 display: flex;
 
-	 max-width: 400px;
+	 max-width: 425px;
 	 max-height: 450px;
 	 height: 95%;
 	 width: 95%;
@@ -400,9 +405,6 @@ html, body {
 	 background-repeat: no-repeat;
 	 background-size: contain;
 
-	font-family: Kumbh Sans, Helvetica, Arial, sans-serif;
-	font-size: 12px;
-	color: hsl(0, 0%, 59%);
 	position: relative;
  }
 
@@ -412,7 +414,7 @@ html, body {
  }
 
  .info > p:last-child {
-	 font-size: 14px;
+	 font-size: 16px;
  }
 
  .bold {
@@ -428,7 +430,7 @@ html, body {
 
  .circle {
 	 position: absolute;
-	 top: 25%;
+	 top: 27%;
  }
 
  .info {
@@ -447,7 +449,22 @@ html, body {
  .stats {
 	 display: grid;
 	 width: 100%;
-	 grid-template-columns: repeat(3, 1fr);
+	 grid-template-columns: 2fr 1fr 2fr;
 	 position: absolute;
-	 top: 70%;
+	 top: 75%;
+	 left: 0%;
+	 border-top: 1px solid lightgrey;
+	 text-align: center;
+ }
+
+ .stats > .bold {
+	 margin-bottom:10px;
+	 margin-top: 35px;
+ }
+
+ .stats > p:nth-child(4),
+ .stats > p:nth-child(5),
+ .stats > p:nth-child(6) {
+	 margin: 0 auto;
+	 letter-spacing: 2px;
  }
