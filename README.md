@@ -41,7 +41,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 - CSS
 - CSS Flexbox
 - CSS Grid
-- [Normalize.CSS](https://necolas.github.io/normalize.css/)
+- [Normalize.css](https://necolas.github.io/normalize.css/)
 
 ### What I learned
 
