@@ -37,16 +37,11 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
+- HTML
+- CSS
+- CSS Flexbox
 - CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+- [Normalize.CSS](https://necolas.github.io/normalize.css/)
 
 ### What I learned
 
