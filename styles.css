@@ -3,7 +3,8 @@
 body {
 	background-color: hsl(185, 75%, 39%);
 	background-image: url("./images/bg-pattern-top.svg"), url("./images/bg-pattern-bottom.svg");
-	background-position: top -150% left -10%, bottom -150% right -5%; 
+	background-position: top -20vh left -10vh, bottom -30vh right -5vh; 
+
 	background-repeat: no-repeat;
 }
 
